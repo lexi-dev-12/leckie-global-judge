@@ -48,7 +48,7 @@ const Header = () => {
           <span className="hidden sm:inline">未来演进</span>
         </Link>
         <a
-          href="https://www.example.com"
+          href="https://csig.lexiangla.com/pages/6d86613954644707b4576bb3764a5055?company_from=csig"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-1.5 text-primary font-medium px-3 py-1.5 rounded-full border border-primary/50 bg-primary/10 hover:bg-primary/20 transition-all duration-300 animate-pulse-subtle group"
