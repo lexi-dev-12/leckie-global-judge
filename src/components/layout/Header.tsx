@@ -47,13 +47,15 @@ const Header = () => {
           <TrendingUp className={`w-4 h-4 ${isActive("/evolution") ? "text-primary" : ""}`} />
           <span className="hidden sm:inline">未来演进</span>
         </Link>
-        <Link
-          to="/alt"
+        <a
+          href="https://www.example.com"
+          target="_blank"
+          rel="noopener noreferrer"
           className="flex items-center gap-1.5 text-primary font-medium px-3 py-1.5 rounded-full border border-primary/50 bg-primary/10 hover:bg-primary/20 transition-all duration-300 animate-pulse-subtle group"
         >
           <ThumbsUp className="w-4 h-4 group-hover:scale-110 transition-transform" />
           <span className="hidden sm:inline">求点赞评论</span>
-        </Link>
+        </a>
       </nav>
     </header>
   );
